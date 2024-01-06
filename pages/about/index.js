@@ -66,12 +66,28 @@ const aboutData = [
     title: 'Certificações',
     info: [
       {
-        title: 'Webby Awards - Honoree',
+        title: 'Curso Java.',
         stage: '100 - Horas',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '100 - Horas',
+        title: 'Curso web moderno',
+        stage: '97,5 - Horas',
+      },
+      {
+        title: 'Angular spring boot',
+        stage: '20 - Horas',
+      },
+      {
+        title: 'Curso Ui Ux design',
+        stage: '14 - Horas',
+      },
+      {
+        title: 'Curso Angular',
+        stage: '13 - Horas',
+      },
+      {
+        title: 'Curso uml',
+        stage: '13 - Horas',
       },
     ],
   },
