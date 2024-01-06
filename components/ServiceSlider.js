@@ -21,29 +21,29 @@ import {FreeMode, Pagination} from 'swiper'
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxDesktop />,
+    title: 'Full-Stack',
+    description: 'Domínio de tecnologias como Java, JavaScript, Spring Boot, React e Angular para criar soluções escaláveis.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Back-End',
+    description: 'Arquiteturas sólidas e eficientes que garantem desempenho, segurança e escalabilidade.',
   },
   {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxDesktop />,
+    title: 'Front-End',
+    description: 'Designs modernos e intuitivos que proporcionam uma experiência de usuário excepcional.',
   },
   {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxDesktop />,
+    title: 'Ui-Ux',
+    description: 'Abordagem centrada no usuário desde a concepção até a implementação, priorizando a usabilidade e a estética.',
+  },
+  {
+    icon: <RxDesktop />,
+    title: 'Mobile',
+    description: 'Criação de aplicativos móveis nativos e responsivos, garantindo uma presença dinâmica em todas as plataformas.',
   },
 ];
 

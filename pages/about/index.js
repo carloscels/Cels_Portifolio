@@ -105,7 +105,7 @@ const About = () => {
         intial = 'hidden'
         animate= 'show'
         exit = 'hidden'
-        className='hidden xl:flex absolute bottom-0 -left-[370px]'>
+        className='hidden xl:flex absolute bottom-0 -left-[460px]'>
           <Avatar />
      
       </motion.div>
@@ -122,7 +122,7 @@ const About = () => {
           <motion.p 
           variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden'
           className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales in nibh et lobortis. Aliquam erat volutpat. Duis tincidunt dolor ultricies nunc pulvinar ornare. Nunc vulputate, diam ut bibendum suscipit, sapien lorem fringilla ex, quis aliquet felis dolor sed nunc.
+            Seja bem-vindo ao meu mundo de código, onde transformo ideias em soluções robustas! Sou um desenvolvedor full-stack com expertise em Java, JavaScript, Python, HTML, CSS, e frameworks como Angular, React, Spring Boot e Node.js. Ao longo da minha jornada, entreguei projetos inovadores e funcionais, destacando-me pela capacidade de harmonizar o back-end sólido com interfaces intuitivas.
           </motion.p>
         </div>
         <motion.div

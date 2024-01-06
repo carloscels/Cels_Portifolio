@@ -21,8 +21,7 @@ const Services = () => {
           <motion.p 
           variants={fadeIn('up', 0.3)} initial='hidden' animate='show' exit='hidden'
           className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales in nibh et lobortis. Aliquam erat volutpat. Duis tincidunt dolor ultricies nunc pulvinar ornare. Nunc vulputate, diam ut bibendum suscipit, sapien lorem fringilla ex, quis aliquet felis dolor sed nunc.
-          </motion.p>
+Em um cenário digital cada vez mais dinâmico, a busca por um parceiro que não apenas compreenda, mas integre de maneira magistral todas as dimensões do desenvolvimento é crucial. Eu sou o seu desenvolvedor full-stack, pronto para não apenas atender, mas exceder suas expectativas em todas as fases da criação digital.          </motion.p>
         </div>
         <motion.div
         variants={fadeIn('down', 0.6)} initial='hidden' animate='show' exit='hidden'

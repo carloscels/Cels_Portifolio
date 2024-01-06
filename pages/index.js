@@ -25,8 +25,7 @@ const Home = () => {
         <motion.p 
         variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden'
         className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-5'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales in nibh et lobortis. Aliquam erat volutpat. Duis tincidunt dolor ultricies nunc pulvinar ornare. Nunc vulputate, diam ut bibendum suscipit, sapien lorem fringilla ex, quis aliquet felis dolor sed nunc.
-        </motion.p>
+          Saudações digitais! Meu nome é Carlos, um desenvolvedor full-stack apaixonado por criar experiências excepcionais na web. Se você está em busca de um profissional que domina todas as camadas do desenvolvimento - desde o back-end até o front-end - você está prestes a encontrar a peça-chave para o sucesso do seu projeto.        </motion.p>
         {/* Btn */}
         <div className='flex justify-center xl:hidden relative'>
           <ProjectsBtn />
