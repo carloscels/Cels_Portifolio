@@ -36,26 +36,6 @@ const workSlides = {
         },
       ],
     },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/img1.jpg',
-        },
-        {
-          title: 'title',
-          path: '/img2.jpg',
-        },
-        {
-          title: 'title',
-          path: '/img3.jpg',
-        },
-        {
-          title: 'title',
-          path: '/img4.jpg',
-        },
-      ],
-    },
   ],
 };
 

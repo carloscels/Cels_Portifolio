@@ -1,65 +1,23 @@
 import React, {useState} from 'react'
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaAws,
-  FaFigma,
-  FaBootstrap,
-  FaAndroid,
-  FaAngular,
-  FaGithub,
-  FaJava,
-  FaNode,
-  FaPython,
-} from "react-icons/fa";
-
-import {
-  SiNextdotjs,
-  SiSpringboot,
-  SiKotlin,
-} from "react-icons/si";
-
 
 //  data
 const aboutData = [
   {
     title: 'Habilidades',
     info: [
-      {
-        title: 'Front-End',
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <FaBootstrap />,
-          <FaAngular />,
-          <FaFigma />,
-        ],
-      },
-      {
-        title: 'Back-end',
-        icons:[<FaJava />,
-        <SiSpringboot />,
-        <FaPython />,
-        <FaNode />,
-        <FaAws />,
-        <FaGithub />
-       ],
-      }, 
-      {
-        title: 'Mobile',
-        icons: [
-          <FaJava />,
-          <SiKotlin />,
-          <FaAndroid />,
-        ],
-      } 
-      
+     {
+      title: 'Front-End',
+      stage: 'Html - Css - JavaScript - React-js - Next-js - Angular.',
+     },
+     {
+      title: 'Back-End',
+      stage: 'Java - NodeJs - Python - Spring Boot.',
+     },
+     {
+      title: 'Dev-Ops',
+      stage: 'Google Cloud - AWS - Terraform - Kubernetes - Docker.',
+     },
     ],
   },
   {
@@ -166,7 +124,8 @@ const About = () => {
                 <div>{item.stage}</div>
                 <div className='flex gap-x-4'>
                   {item.icons?.map((icon,itemIndex)=>{
-                    return <div className='text 2xl text-white'>{icon}</div>
+                    return
+                     <div className='text 2xl text-white'>{icon}</div>
                   })}
                 </div>
               </div>
